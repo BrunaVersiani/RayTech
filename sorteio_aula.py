@@ -17,12 +17,11 @@ if sorteado == 'Bruna':
     aula = aulasb[randrange(len(aulasb))]
     print(aula)
     print('\033[32m+' * 30)
-else:
+if sorteado == 'Jonathan':
     print('\033[31m¨' * 30)
-    aulasj = ('Funções Javascript', 'Funções Python', 'Lista Python', 'Array Javascript', 'Python if, else, elif',
-              'Javascript if, if else','Javascript switch,', ' case', 'Css grid', 'Css flex box', 'HTML buttões',
-              'Css manipulações básicas','Tuplas python', 'Dicionario Python', 'Dicionaria javascript', 'While Python',
-              'sortudo pode escolher o que ensinar', 'For python', 'For javascript',  'While Javascript')
+    aulasj = ('Funções Javascript', 'Array Javascript', 'if, else, elif', 'While Javascript',
+              'Javascript switch', ' case', 'Css grid', 'Css flex box', 'HTML buttões', 'For javascript',
+              'Css manipulações básicas', 'Dicionario javascript', 'sortudo pode escolher o que ensinar')
     print('O tema da aula será:  ', end='')
     sleep(2)
     aula = aulasj[randrange(len(aulasj))]
